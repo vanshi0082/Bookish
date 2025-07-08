@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Lily's Literary Loft - Online Bookstore" />
+    <title>Lily's Literary Loft</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- ✅ Dialogflow Messenger Chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Lily's Help"
+      agent-id="058008ab-de38-4df6-a117-ed7d81f8a8e2"
+      language-code="en"
+    ></df-messenger>
+
+    <!-- ✅ Optional: Styling the Chat Widget -->
+    <style>
+      df-messenger {
+        --df-messenger-button-titlebar-color: #6a1b9a;
+        --df-messenger-chat-background-color: #f8f4fc;
+        --df-messenger-font-color: #000000;
+        --df-messenger-send-icon: #6a1b9a;
+      }
+    </style>
+  </body>
+</html>

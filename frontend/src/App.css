@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .swiper-button-prev {
+    display: none !important;
+ }
+ .swiper-button-next{
+    @apply bg-white p-5 rounded-full z-50 shadow-md
+ }
+
+ .swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 16px !important;
+ }
+
+ .btn-primary {
+    @apply bg-primary  px-12 py-2 rounded-md text-base font-secondary font-bold hover:bg-secondary hover:text-white transition-all duration-200 cursor-pointer
+ }
+
+.html{
+   scroll-behavior: smooth;
+}
+/* Customize the messenger */
+df-messenger {
+  --df-messenger-font-color: #000000;
+  --df-messenger-chat-background-color: #ffffff;
+
+  /* 👇 Customize size */
+  --df-messenger-width: 400px;
+  --df-messenger-height: 500px;
+  --df-messenger-min-width: 300px;
+
+  /* 👇 Optional: Customize launcher button position */
+  --df-messenger-launcher-icon: url('https://your-icon-url.png');
+  --df-messenger-button-icon-size: 40px; /* icon size */
+}
+
+/* Optional: Move it higher from bottom */
+df-messenger .df-messenger-wrapper {
+  bottom: 80px !important;
+}
+

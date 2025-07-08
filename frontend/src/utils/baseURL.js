@@ -1,5 +1,5 @@
 const getBaseUrl = () => {
-    return "http://localhost:5000"
+    return "https://bookish-backend-58fo.onrender.com"
 }
 
 export default getBaseUrl;

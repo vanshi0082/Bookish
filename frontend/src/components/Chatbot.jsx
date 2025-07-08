@@ -12,7 +12,7 @@ const Chatbot = () => {
 
     const dfMessenger = document.createElement("df-messenger");
     dfMessenger.setAttribute("intent", "WELCOME");
-    dfMessenger.setAttribute("chat-title", "Lilly's Literary Loft");
+    dfMessenger.setAttribute("chat-title", "Bookish");
     dfMessenger.setAttribute("agent-id", "058008ab-de38-4df6-a117-ed7d81f8a8e2");
     dfMessenger.setAttribute("language-code", "en");
     document.body.appendChild(dfMessenger);

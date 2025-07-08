@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # build-full-stack-book-store-mern-app
 ![full-stack-book-store-mern-project](/frontend/src/assets/github-cover.png)
 
@@ -37,3 +38,6 @@ Note: Please setup mongodb and change the MongoDB url and set your jwt secret ke
 ```
 
 - Finally, to run the project, use ``npm run start:dev`` command.
+=======
+# Bookish
+>>>>>>> 814bc73dc859e21f6ef81a7f42cdc64421eb7a44
